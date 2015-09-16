@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-color: #EEEEEE;
+  font-family: 'Freight Sans W01 Semibold', 'Lato', sans-serif;
+  color: purple;
+}
+
+a {
+  color: #00B7FF;
+}
