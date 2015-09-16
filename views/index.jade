@@ -1,5 +1,26 @@
 extends layout
 
 block content
-  
+  .choose-play
+    .play
+      h3 Rock
+      .rock.button
+        i(class="icon icon-hand-rock-o icon-4x rock")
+    .play
+      h3 Paper
+      .paper.button
+        i(class="icon icon-paper-plane icon-4x paper")
+    .play
+      h3 Scissors
+      .scissors.button
+        i(class="material-icons scissors") content_cut
+  .scoreboard
+    .score
+      h3 player
+      h1.player-score 0
+    .score
+      h3 computer
+      h1.computer-score 0
+  .announcer
+    h3.game-status
 append client-scripts

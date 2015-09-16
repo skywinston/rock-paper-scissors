@@ -2,11 +2,13 @@ doctype html
 html
   head
     title Rock, Paper, Scissors
+    link(rel="stylesheet", href='/bower_components/normalize-css/normalize.css')
+    script(type="text/javascript" src="http://fast.fonts.net/jsapi/225f1cce-2ebb-49d3-b7d4-2ca943082f0a.js")
+    link(href="https://fonts.googleapis.com/icon?family=Material+Icons",  rel="stylesheet")
+    script(src="https://use.fonticons.com/e96cecf5.js")
     link(rel='stylesheet', href='/stylesheets/style.css')
-    link(type="text/javascript" src="http://fast.fonts.net/jsapi/225f1cce-2ebb-49d3-b7d4-2ca943082f0a.js")
-    link(rel="stylesheet", href='public/bower_components/normalize-css/normalize.css')
-    script(type="text/javascript", src="public/bower_components/jquery/dist/jquery.min.js")
+    script(type="text/javascript", src="/bower_components/jquery/dist/jquery.min.js")
   body
     block content
     block client-scripts
-      script(type="text/javascript", src="public/javascripts/client.js")
+      script(type="text/javascript", src="/javascripts/client.js")
